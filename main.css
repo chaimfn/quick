@@ -1,0 +1,27 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+#content {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#content>div {
+    display: inline-block;
+}
+
+#content>#d-phone {
+    direction: ltr;
+}
+
+input#txt-prefix {
+    width: 25px;
+}
+
+input#txt-phone {
+    width: 75px;
+}

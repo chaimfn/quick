@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick</title>
+    <link rel="icon" type="image/x-icon" href="quick-message-logo-appstore.ico" />
+</head>
+
+<body>
+    <div id="content">
+        <div id="d-phone">
+            <label>
+                <input type="tel" id="txt-prefix" placeholder="קידומת בי''ל" maxlength="3" value="972" />
+            </label>
+            <label>
+                <input type="tel" id="txt-phone" placeholder="מס' טלפון" maxlength="10" onkeypress="txtphone_onkeypress()" />
+            </label>
+        </div>
+        <div id="d-btns">
+            <button onclick="send()">התחל</button>
+        </div>
+    </div>
+</body>
+
+</html>
